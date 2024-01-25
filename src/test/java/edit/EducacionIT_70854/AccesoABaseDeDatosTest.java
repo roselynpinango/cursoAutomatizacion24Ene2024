@@ -55,6 +55,7 @@ public class  AccesoABaseDeDatosTest {
 			System.out.println("Número de Productos en Base de Datos: " + count);
 			Assert.assertTrue(count > 0);
 			Assert.assertEquals(count, 15);
+			System.out.println("Prueba de GIT");
 			//Assert.assertEquals(count > 0, true);
 				
       		// closing DB Connection		
