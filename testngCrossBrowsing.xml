@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="PruebaEnEdge">
+	<parameter name="navegador" value="EDGE"></parameter>  
+    <classes>
+      <class name="edit.EducacionIT_70854.Modulo4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="PruebaEnFirefox">
+	<parameter name="navegador" value="FIREFOX"></parameter>  
+    <classes>
+      <class name="edit.EducacionIT_70854.Modulo4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
